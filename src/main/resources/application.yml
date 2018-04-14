@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  contextPath: /
+spring:
+  netty:
+    port: 13549
+    bossThreadCount: 2
+    workerThreadCount: 2
+    soKeepalive: true
+    soBacklog: 100
